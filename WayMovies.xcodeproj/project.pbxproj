@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		086C126C256DBDA6007F6489 /* WayMoviesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C126B256DBDA6007F6489 /* WayMoviesApp.swift */; };
+		086C126E256DBDA6007F6489 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C126D256DBDA6007F6489 /* ContentView.swift */; };
+		086C1270256DBDA8007F6489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086C126F256DBDA8007F6489 /* Assets.xcassets */; };
+		086C1273256DBDA8007F6489 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086C1272256DBDA8007F6489 /* Preview Assets.xcassets */; };
+		086C127E256DBDA8007F6489 /* WayMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C127D256DBDA8007F6489 /* WayMoviesTests.swift */; };
+		086C1289256DBDA8007F6489 /* WayMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C1288256DBDA8007F6489 /* WayMoviesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		086C127A256DBDA8007F6489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 086C1260256DBDA6007F6489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 086C1267256DBDA6007F6489;
+			remoteInfo = WayMovies;
+		};
+		086C1285256DBDA8007F6489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 086C1260256DBDA6007F6489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 086C1267256DBDA6007F6489;
+			remoteInfo = WayMovies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		086C1268256DBDA6007F6489 /* WayMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WayMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		086C126B256DBDA6007F6489 /* WayMoviesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayMoviesApp.swift; sourceTree = "<group>"; };
+		086C126D256DBDA6007F6489 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		086C126F256DBDA8007F6489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		086C1272256DBDA8007F6489 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		086C1274256DBDA8007F6489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086C1279256DBDA8007F6489 /* WayMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WayMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		086C127D256DBDA8007F6489 /* WayMoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayMoviesTests.swift; sourceTree = "<group>"; };
+		086C127F256DBDA8007F6489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086C1284256DBDA8007F6489 /* WayMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WayMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		086C1288256DBDA8007F6489 /* WayMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayMoviesUITests.swift; sourceTree = "<group>"; };
+		086C128A256DBDA8007F6489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		086C1265256DBDA6007F6489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086C1276256DBDA8007F6489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086C1281256DBDA8007F6489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086C125F256DBDA6007F6489 = {
+			isa = PBXGroup;
+			children = (
+				086C126A256DBDA6007F6489 /* WayMovies */,
+				086C127C256DBDA8007F6489 /* WayMoviesTests */,
+				086C1287256DBDA8007F6489 /* WayMoviesUITests */,
+				086C1269256DBDA6007F6489 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		086C1269256DBDA6007F6489 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				086C1268256DBDA6007F6489 /* WayMovies.app */,
+				086C1279256DBDA8007F6489 /* WayMoviesTests.xctest */,
+				086C1284256DBDA8007F6489 /* WayMoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		086C126A256DBDA6007F6489 /* WayMovies */ = {
+			isa = PBXGroup;
+			children = (
+				086C126B256DBDA6007F6489 /* WayMoviesApp.swift */,
+				086C126D256DBDA6007F6489 /* ContentView.swift */,
+				086C126F256DBDA8007F6489 /* Assets.xcassets */,
+				086C1274256DBDA8007F6489 /* Info.plist */,
+				086C1271256DBDA8007F6489 /* Preview Content */,
+			);
+			path = WayMovies;
+			sourceTree = "<group>";
+		};
+		086C1271256DBDA8007F6489 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				086C1272256DBDA8007F6489 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		086C127C256DBDA8007F6489 /* WayMoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				086C127D256DBDA8007F6489 /* WayMoviesTests.swift */,
+				086C127F256DBDA8007F6489 /* Info.plist */,
+			);
+			path = WayMoviesTests;
+			sourceTree = "<group>";
+		};
+		086C1287256DBDA8007F6489 /* WayMoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				086C1288256DBDA8007F6489 /* WayMoviesUITests.swift */,
+				086C128A256DBDA8007F6489 /* Info.plist */,
+			);
+			path = WayMoviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		086C1267256DBDA6007F6489 /* WayMovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086C128D256DBDA8007F6489 /* Build configuration list for PBXNativeTarget "WayMovies" */;
+			buildPhases = (
+				086C1264256DBDA6007F6489 /* Sources */,
+				086C1265256DBDA6007F6489 /* Frameworks */,
+				086C1266256DBDA6007F6489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WayMovies;
+			productName = WayMovies;
+			productReference = 086C1268256DBDA6007F6489 /* WayMovies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		086C1278256DBDA8007F6489 /* WayMoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086C1290256DBDA8007F6489 /* Build configuration list for PBXNativeTarget "WayMoviesTests" */;
+			buildPhases = (
+				086C1275256DBDA8007F6489 /* Sources */,
+				086C1276256DBDA8007F6489 /* Frameworks */,
+				086C1277256DBDA8007F6489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				086C127B256DBDA8007F6489 /* PBXTargetDependency */,
+			);
+			name = WayMoviesTests;
+			productName = WayMoviesTests;
+			productReference = 086C1279256DBDA8007F6489 /* WayMoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		086C1283256DBDA8007F6489 /* WayMoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086C1293256DBDA8007F6489 /* Build configuration list for PBXNativeTarget "WayMoviesUITests" */;
+			buildPhases = (
+				086C1280256DBDA8007F6489 /* Sources */,
+				086C1281256DBDA8007F6489 /* Frameworks */,
+				086C1282256DBDA8007F6489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				086C1286256DBDA8007F6489 /* PBXTargetDependency */,
+			);
+			name = WayMoviesUITests;
+			productName = WayMoviesUITests;
+			productReference = 086C1284256DBDA8007F6489 /* WayMoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		086C1260256DBDA6007F6489 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					086C1267256DBDA6007F6489 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					086C1278256DBDA8007F6489 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 086C1267256DBDA6007F6489;
+					};
+					086C1283256DBDA8007F6489 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 086C1267256DBDA6007F6489;
+					};
+				};
+			};
+			buildConfigurationList = 086C1263256DBDA6007F6489 /* Build configuration list for PBXProject "WayMovies" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 086C125F256DBDA6007F6489;
+			productRefGroup = 086C1269256DBDA6007F6489 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				086C1267256DBDA6007F6489 /* WayMovies */,
+				086C1278256DBDA8007F6489 /* WayMoviesTests */,
+				086C1283256DBDA8007F6489 /* WayMoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		086C1266256DBDA6007F6489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086C1273256DBDA8007F6489 /* Preview Assets.xcassets in Resources */,
+				086C1270256DBDA8007F6489 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086C1277256DBDA8007F6489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086C1282256DBDA8007F6489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		086C1264256DBDA6007F6489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086C126E256DBDA6007F6489 /* ContentView.swift in Sources */,
+				086C126C256DBDA6007F6489 /* WayMoviesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086C1275256DBDA8007F6489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086C127E256DBDA8007F6489 /* WayMoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086C1280256DBDA8007F6489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086C1289256DBDA8007F6489 /* WayMoviesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		086C127B256DBDA8007F6489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 086C1267256DBDA6007F6489 /* WayMovies */;
+			targetProxy = 086C127A256DBDA8007F6489 /* PBXContainerItemProxy */;
+		};
+		086C1286256DBDA8007F6489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 086C1267256DBDA6007F6489 /* WayMovies */;
+			targetProxy = 086C1285256DBDA8007F6489 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		086C128B256DBDA8007F6489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		086C128C256DBDA8007F6489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		086C128E256DBDA8007F6489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WayMovies/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WayMovies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessb.WayMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		086C128F256DBDA8007F6489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WayMovies/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WayMovies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessb.WayMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		086C1291256DBDA8007F6489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WayMoviesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessb.WayMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WayMovies.app/WayMovies";
+			};
+			name = Debug;
+		};
+		086C1292256DBDA8007F6489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WayMoviesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessb.WayMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WayMovies.app/WayMovies";
+			};
+			name = Release;
+		};
+		086C1294256DBDA8007F6489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WayMoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessb.WayMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WayMovies;
+			};
+			name = Debug;
+		};
+		086C1295256DBDA8007F6489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WayMoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessb.WayMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WayMovies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		086C1263256DBDA6007F6489 /* Build configuration list for PBXProject "WayMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086C128B256DBDA8007F6489 /* Debug */,
+				086C128C256DBDA8007F6489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086C128D256DBDA8007F6489 /* Build configuration list for PBXNativeTarget "WayMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086C128E256DBDA8007F6489 /* Debug */,
+				086C128F256DBDA8007F6489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086C1290256DBDA8007F6489 /* Build configuration list for PBXNativeTarget "WayMoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086C1291256DBDA8007F6489 /* Debug */,
+				086C1292256DBDA8007F6489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086C1293256DBDA8007F6489 /* Build configuration list for PBXNativeTarget "WayMoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086C1294256DBDA8007F6489 /* Debug */,
+				086C1295256DBDA8007F6489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 086C1260256DBDA6007F6489 /* Project object */;
+}
