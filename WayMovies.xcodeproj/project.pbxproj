@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		085F34FB257549B00069C061 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085F34FA257549B00069C061 /* SearchResultsViewController.swift */; };
+		085F3503257549CF0069C061 /* BrowseMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085F3502257549CF0069C061 /* BrowseMoviesViewController.swift */; };
+		085F3508257549DF0069C061 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085F3507257549DF0069C061 /* Movie.swift */; };
+		085F350D257549F90069C061 /* ResultDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085F350C257549F90069C061 /* ResultDetailViewController.swift */; };
+		085F352025754AF00069C061 /* CardViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085F351F25754AF00069C061 /* CardViewControllers.swift */; };
+		085F352825754C390069C061 /* StarRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085F352725754C390069C061 /* StarRatingViewController.swift */; };
+		085F3586257FB0C00069C061 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085F3585257FB0C00069C061 /* Config.swift */; };
+		085F36252589049E0069C061 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085F36242589049E0069C061 /* SearchBarView.swift */; };
 		086C126C256DBDA6007F6489 /* WayMoviesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C126B256DBDA6007F6489 /* WayMoviesApp.swift */; };
 		086C126E256DBDA6007F6489 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C126D256DBDA6007F6489 /* ContentView.swift */; };
 		086C1270256DBDA8007F6489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086C126F256DBDA8007F6489 /* Assets.xcassets */; };
@@ -33,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		085F34FA257549B00069C061 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		085F3502257549CF0069C061 /* BrowseMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseMoviesViewController.swift; sourceTree = "<group>"; };
+		085F3507257549DF0069C061 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		085F350C257549F90069C061 /* ResultDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDetailViewController.swift; sourceTree = "<group>"; };
+		085F351F25754AF00069C061 /* CardViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewControllers.swift; sourceTree = "<group>"; };
+		085F352725754C390069C061 /* StarRatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingViewController.swift; sourceTree = "<group>"; };
+		085F3585257FB0C00069C061 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		085F36242589049E0069C061 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		086C1268256DBDA6007F6489 /* WayMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WayMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		086C126B256DBDA6007F6489 /* WayMoviesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayMoviesApp.swift; sourceTree = "<group>"; };
 		086C126D256DBDA6007F6489 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +88,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		085F34F9257548BC0069C061 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				086C126D256DBDA6007F6489 /* ContentView.swift */,
+				085F350C257549F90069C061 /* ResultDetailViewController.swift */,
+				085F34FA257549B00069C061 /* SearchResultsViewController.swift */,
+				085F3502257549CF0069C061 /* BrowseMoviesViewController.swift */,
+				085F351F25754AF00069C061 /* CardViewControllers.swift */,
+				085F352725754C390069C061 /* StarRatingViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		085F355225781C9B0069C061 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				085F3507257549DF0069C061 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		085F355325781CBF0069C061 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				086C126F256DBDA8007F6489 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		086C125F256DBDA6007F6489 = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +141,11 @@
 			isa = PBXGroup;
 			children = (
 				086C126B256DBDA6007F6489 /* WayMoviesApp.swift */,
-				086C126D256DBDA6007F6489 /* ContentView.swift */,
-				086C126F256DBDA8007F6489 /* Assets.xcassets */,
+				085F3585257FB0C00069C061 /* Config.swift */,
+				085F36242589049E0069C061 /* SearchBarView.swift */,
+				085F355225781C9B0069C061 /* Models */,
+				085F34F9257548BC0069C061 /* Views */,
+				085F355325781CBF0069C061 /* Resources */,
 				086C1274256DBDA8007F6489 /* Info.plist */,
 				086C1271256DBDA8007F6489 /* Preview Content */,
 			);
@@ -259,7 +307,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				085F3508257549DF0069C061 /* Movie.swift in Sources */,
+				085F352825754C390069C061 /* StarRatingViewController.swift in Sources */,
+				085F352025754AF00069C061 /* CardViewControllers.swift in Sources */,
+				085F36252589049E0069C061 /* SearchBarView.swift in Sources */,
+				085F350D257549F90069C061 /* ResultDetailViewController.swift in Sources */,
+				085F3586257FB0C00069C061 /* Config.swift in Sources */,
 				086C126E256DBDA6007F6489 /* ContentView.swift in Sources */,
+				085F3503257549CF0069C061 /* BrowseMoviesViewController.swift in Sources */,
+				085F34FB257549B00069C061 /* SearchResultsViewController.swift in Sources */,
 				086C126C256DBDA6007F6489 /* WayMoviesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +475,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WayMovies/Preview Content\"";
+				DEVELOPMENT_TEAM = WTJ5T9YQ63;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WayMovies/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -440,6 +497,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WayMovies/Preview Content\"";
+				DEVELOPMENT_TEAM = WTJ5T9YQ63;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WayMovies/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

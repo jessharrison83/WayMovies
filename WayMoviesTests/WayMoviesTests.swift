@@ -5,11 +5,10 @@
 //  Created by Jessica Berler on 11/24/20.
 //
 
-import XCTest
 @testable import WayMovies
+import XCTest
 
 class WayMoviesTests: XCTestCase {
-
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -25,9 +24,8 @@ class WayMoviesTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
-
 }
