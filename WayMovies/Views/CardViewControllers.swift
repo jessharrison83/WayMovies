@@ -23,7 +23,7 @@ struct CardImage: View {
             }.onAppear(perform: getImage)
         }
     }
-
+    //this is still incredibly slow for browse. Go back through concurrency/GCD videos and see what else might work. Right now, browse view sends calls to three category endpoints, goes through the results with a ForEach and puts them in a BrowseCard, which then does another call for each of them to get the image data. The category endpoint calls are fast, just images take forever to load.
     func getImage() {
         if movieImagePath != nil {
             var imageData: UIImage?
