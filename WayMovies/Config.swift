@@ -10,6 +10,7 @@ struct Config {
     let imageBaseURL: String = "https://image.tmdb.org/t/p"
     let movieBaseURL: String = "https://api.themoviedb.org/3/movie"
     let multiSearchBaseURL: String = "https://api.themoviedb.org/3/search/multi"
+    //how do I store api keys safely in iOS? 
     let api: String = "71ab1b19293efe581c569c1c79d0f004"
 }
 
